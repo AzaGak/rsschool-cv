@@ -20,9 +20,11 @@ deeply on their own. I hope with the help of RSSCHOOL to achieve my goal!
 4. Basic GIT
 
 ## Code examples
-`function multiply(a, b){
+```
+function multiply(a, b){
     return a * b
-  }`
+  }
+```
 
 ## Education
 Higher education
