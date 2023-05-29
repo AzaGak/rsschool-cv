@@ -6,7 +6,7 @@ a front-end developer. There have been a lot of
 attempts to master this passage on their own,
 but it has not yet been possible to advance
 deeply on their own. I hope with the help of RSSCHOOL to achieve my goal!
-
+``` <hr> ```
 ### Skills
 1. HTML 
 2. CSS
