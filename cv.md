@@ -6,9 +6,12 @@
  but it has not yet been possible to advance
  deeply on their own. I hope with the help of RSSCHOOL to achieve my goal!*
 
-**Skills:** *Studied Potkhon() on my own, took Potkhon 
-courses on Stepik more than two years ago. There is no 
-practical real programming experience. I made some simple HTML+HR pages.*
+**Skills:**
+1. HTML 
+2. CSS
+3. Basic Python
+4. Basic GIT <br/>
+
 
 **Experience:** *No programming experience*
 
