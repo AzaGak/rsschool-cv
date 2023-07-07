@@ -2,9 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+                        <li class="nav-item"><a href="#english" class="nav-link">english</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="section section-contacts" id="contacts">
+                    <img src="img/photo.jpg" alt="photo" class="photo">
+                    <div class="section-contacts-box">
+                        <h2 class="section-title">Contacts</h2>
+                        <h1 class="section-contacts-name">Azat Yershenbayev</h1>
+                        <ul class="section-list">
+                            <li class="section-list-item">GitHub:  <a href="https://github.com/AzaGak" class="section-item-link">@AzaGak</a></li>
+                            <li class="section-list-item">Discord: <a href="#" class="section-item-link">@biterek</a></li>
+                            <li class="section-list-item">Telegram: <a href="https://t.me/biterek" class="section-item-link">@biterek</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section section-about" id="about">
+                    <h2 class="section-title">About me</h2>
+                    <p class="about-text">I am 38 years old, I have a very big desire to become a front-end developer.
+                         There have been a lot of attempts to master this passage on their own, but it has not yet been possible to advance deeply on their own. I hope with the help of RSSCHOOL to achieve my goal!</p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ol class="section-ol-list">
+                        <li class="section-list-item">html</li>
+                        <li class="section-list-item">css</li>
+                        <li class="section-list-item">Basic Python</li>
+                        <li class="section-list-item">Basic GIT</li>
+                    </ol>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+                        <code>
+                            function multiply(a, b){
+                                return a * b
+                              }
+                        </code>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p class="education-text">Aktau Yessenov University</p>
+                </section>
+                <section class="section" id="english">
+                    <h2 class="section-title">English</h2>
+                    <p class="english-text">A1-Elementary</p>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container container-footer">
+                <p class="footer-year">&#169 2023</p>
+                <a href="https://github.com/AzaGak" class="footer-link-git">AzaGak</a>
+                <a href="https://rs.school/js/"><img src="img/rs-school.svg" class="rs-logo" alt="rs_school_js"></a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
