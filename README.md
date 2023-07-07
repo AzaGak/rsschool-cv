@@ -1,2 +1,2 @@
-https://AzaGak.github.io/rsschool-cv/cv
-https://AzaGak.github.io/rsschool-cv/
+https://azagak.github.io/rsschool-cv/cv  
+https://azagak.github.io/rsschool-cv/
