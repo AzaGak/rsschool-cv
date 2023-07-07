@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    width: 100%;
+    background: rgb(175, 175, 238);
+}
+
+.main {
+    background: white;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    height: 100px;
+    background: black;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    transition: all .2s;
+}
+
+.nav-link:hover {
+    opacity: .7;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 5px;
+    display: block;
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,.1);
+    margin-right: 50px;
+}
+
+.section {
+    margin: 20px;
+    padding: 0 50px 0 50px;
+}
+
+.section-contacts-box {
+    /* background: #afafee42; */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.section-contacts {
+    display: flex;  
+    /* justify-content: space-around; */
+    /* justify-content: space-around;  */
+    align-items: center;
+}
+
+
+
+.section-contacts-name,
+.section-title {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section-contacts-name {
+    letter-spacing: 3px;
+}
+
+.section-title {
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 225px;
+    height: 2px;
+    background: #afafee;
+}
+
+.section-list {
+    padding: 0;
+    list-style: none;
+}
+
+.section-list-item {
+    font-weight: 700;
+    line-height: 22px;
+}
+
+
+
+.section-item-link {
+    text-decoration: none;
+    color: blue;
+}
+
+.section-item-link:hover {
+    color: rgb(175, 175, 238);
+}
+
+
+.section-ol-list {
+    padding-left: 20px;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.container-footer p{
+    color: white;
+}
+
+.footer-link-git {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link-git:hover {
+    color: rgb(175, 175, 238);
+}
+
+.rs-logo {
+    width: 121px;
+    height: 45px;
+}
+
+
+
+
+
