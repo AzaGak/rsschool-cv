@@ -1,1 +1,1 @@
-# rsschool-cv
+https://AzaGak.github.io/rsschool-cv/
